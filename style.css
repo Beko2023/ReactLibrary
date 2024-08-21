@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e3ff;
+    font-family: inter;
+}
+
+main {
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Badge Component */
+
+span {
+    background-color: #F3F4F6;
+    color: #4B5563;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2px 12px;
+    border-radius: 4px;
+    line-height: 24px;
+    margin: 10px;
+}
+
+span.color-red {
+    color: #991B1B;
+    background-color: #FEE2E2;
+}
+
+span.color-yellow {
+    color: #92400E;
+    background-color: #FEF3C7;
+}
+
+span.color-green {
+    color: #065F46;
+    background-color: #D1FAE5;
+}
+
+span.color-blue {
+    color: #1E40AF;
+    background-color: #DBEAFE;
+}
+
+span.color-indigo {
+    color: #3730A3;
+    background-color: #E0E7FF;
+}
+
+span.color-purple {
+    color: #5B21B6;
+    background-color: #EDE9FE;
+}
+
+span.color-pink {
+    color: #9D174D;
+    background-color: #FCE7F3;
+}
+
+.pill {
+    border-radius: 12px;
+}
+
+/* Banner Component */
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    text-align: left;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;  
+    display: block;
+    margin: 10px;
+    }
+    
+.success {
+    background-color: #ECFDF5;
+}
+
+.success-title {
+    color: #065F46;
+}
+
+.success-text {
+    color: #047857;
+}
+
+.warning {
+    background-color: #FFFBEB;    
+}
+
+.warning-title {
+    color: #92400E;
+}
+
+.warning-text {
+    color: #B45309;
+}
+
+.error {
+    background-color: #FEF2F2;
+}
+
+.error-title {
+    color: #92400E;
+}
+
+.error-text {
+    color: #B45309;
+}
+
+.neutral{
+    background-color: #EFF6FF;
+    color: #1E40AF;
+}
+
+.neutral-title {
+    color: #1E40AF;
+}
+
+.neutral-text {
+    color: #1C51B9;
+}
+
+/* Card Component */
+
+.card {
+    max-width: 400px;
+    background-color: #F9FAFB;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #111827;
+}
+
+.card-par {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Testimonial Component */
+
+.testimonial--wrapper {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.testimonial--wrapper2 {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content {
+    margin-top: 100px;
+    height: 80%;
+    background-color: #2545B8;
+    
+}
+
+.content2 {
+    height: 100%;
+    background-color: #FFFFFF;
+    color: #111827;
+}
+
+.statement {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 70px 15px 25px 15px;
+    margin-top: 50px;
+}
+
+.statement2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+    padding: 10px 15px 25px 15px;
+    margin-top: 10px;
+}
+
+.signature {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.signature2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.test--image {
+    margin: 0 15px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.logo {
+    margin: 50px auto 20px auto;
+    width: 180px;
+    display: block;
+}
+
+/* testimonial breakpoint for devices larger than a phone display */
+
+@media (min-width: 320px) {
+    .testimonial--wrapper {
+        flex-direction: row ;
+        height: 400px;
+    }
+    .test--image {
+        width: 200px;
+        height: 200px;
+        margin-left: 5%;
+        margin-right: auto;
+        
+    }
+    .content {
+        width: 100%;
+        height: 180px;
+        padding-left: 40%;
+        margin-top: 10px;
+    }
+    .statement {
+        margin: 0;
+        padding: 20px;
+    }
+    .content2 {
+        text-align: center;
+    }
+    .signature2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
