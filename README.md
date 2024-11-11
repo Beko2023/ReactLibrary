@@ -1,19 +1,5 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+This solo project was given to us to cement the concept of component creation with the user in mind. It really helped grasp the usecase for libraries and the options that can be made available to our users to effectively utilize these components while maintaining boundaries that protect the integrity of our components. 
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Here I am displaying four components on screen that render information according to the props and classnames set by the user. 
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+![image](https://github.com/user-attachments/assets/142a652f-ae7a-4d98-9d07-c2d4394f6ed9)
